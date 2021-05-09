@@ -9,3 +9,5 @@ mount -t ext4 /dev/sdb /media/HDD_2
 chmod ugo+wx /media/HDD_1
 chmod ugo+wx /media/HDD_2
 mkdir /media/HDD_1/plots /media/HDD_2/plots
+touch /media/HDD_1/plots/hdd-1-sample.txt
+touch /media/HDD_2/plots/hdd-2-sample.txt

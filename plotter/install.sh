@@ -17,6 +17,7 @@ sudo chmod ugo+wx /media/SSD_1
 cd /media/SSD_1
 mkdir p1 p2 p3 p4 p5 p6 p7
 
+cd
 sudo apt-get update
 sudo apt-get upgrade -y
 git clone https://github.com/Chia-Network/chia-blockchain.git -b latest --recurse-submodules
@@ -24,3 +25,6 @@ cd chia-blockchain
 sh install.sh
 . ./activate
 chia init
+deactivate
+
+cd ~/aihc/plotter
