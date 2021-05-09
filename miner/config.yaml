@@ -1,0 +1,18 @@
+path:
+- "/media/HDD_1/plots"
+- "/media/HDD_2/plots"
+minerName:
+apiKey:
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: info
+  path: ./log/
+  name: miner.log
+url:
+  info: ""
+  submit: ""
+scanPath: false
+scanMinute: 60
+
